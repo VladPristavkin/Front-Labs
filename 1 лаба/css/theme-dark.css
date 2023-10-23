@@ -1,0 +1,39 @@
+body {
+    background: none;
+    background-color: #222;
+    color: #c7c7c7;
+}
+.trusted__clients__title {
+    color: #c7c7c7;
+}
+.card__block__title {
+    color: black;
+}
+/* .theme {
+    background: #222222;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+} */
+.explore__all__text {
+    color: #c7c7c7;
+}
+.get__in__touch__title {
+    color: #c7c7c7;
+}
+footer h2 {
+    color: #c7c7c7;
+}
+.footer__list__item a {
+    color: #c7c7c7;
+}
+.main__contact__list li {
+    color: #c7c7c7;
+}
+.newsletter p {
+    color: #c7c7c7;
+}
+.company__additional__info__link {
+    color: #c7c7c7;
+}
+.company__additional__info__block {
+    color: #c7c7c7;
+}

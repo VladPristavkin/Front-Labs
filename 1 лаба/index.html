@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Mulish:regular,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:regular,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Manrope:regular,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" title="theme" href="#">
+    <link rel="shortcut icon" href="#">
+    <script defer src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script defer src="js/menuBurger.js"></script>
+    <script defer src="js/player.js"></script>
+    <script defer src="js/multiLang.js"></script>
+    <script defer src="js/dark-mode.js"></script>
+    <title>Proxylab</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="#" class="header__logo__link">
+                        <img src="images/svg/Logo.svg" alt="Proxylab logo">
+                    </a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link" data-lang="menu__link_1" >Features</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link" data-lang="menu__link_2" >Pricing & Plans</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link" data-lang="menu__link_3" >Support</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link" data-lang="menu__link_4" >About Us</a>
+                        </li>
+                        <li class="menu__item desktop__hidden">
+                            <a href="#" class="menu__link" data-lang="menu__link_5" >Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="lang-btns_wrapper">
+                    <button class="lang-btn another__btn" data-btn="eng">ENG</button>
+                    <button class="lang-btn another__btn" data-btn="ru">RU</button>
+                </div>
+                <div class="theme">
+                    <svg class="changeTheme" data-theme="light" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;"> <path d="M20 30C22.6522 30 25.1957 28.9464 27.0711 27.0711C28.9464 25.1957 30 22.6522 30 20C30 17.3478 28.9464 14.8043 27.0711 12.9289C25.1957 11.0536 22.6522 10 20 10C17.3478 10 14.8043 11.0536 12.9289 12.9289C11.0536 14.8043 10 17.3478 10 20C10 22.6522 11.0536 25.1957 12.9289 27.0711C14.8043 28.9464 17.3478 30 20 30V30ZM20 0C20.3315 0 20.6495 0.131696 20.8839 0.366117C21.1183 0.600537 21.25 0.918479 21.25 1.25V6.25C21.25 6.58152 21.1183 6.89946 20.8839 7.13388C20.6495 7.3683 20.3315 7.5 20 7.5C19.6685 7.5 19.3505 7.3683 19.1161 7.13388C18.8817 6.89946 18.75 6.58152 18.75 6.25V1.25C18.75 0.918479 18.8817 0.600537 19.1161 0.366117C19.3505 0.131696 19.6685 0 20 0V0ZM20 32.5C20.3315 32.5 20.6495 32.6317 20.8839 32.8661C21.1183 33.1005 21.25 33.4185 21.25 33.75V38.75C21.25 39.0815 21.1183 39.3995 20.8839 39.6339C20.6495 39.8683 20.3315 40 20 40C19.6685 40 19.3505 39.8683 19.1161 39.6339C18.8817 39.3995 18.75 39.0815 18.75 38.75V33.75C18.75 33.4185 18.8817 33.1005 19.1161 32.8661C19.3505 32.6317 19.6685 32.5 20 32.5V32.5ZM40 20C40 20.3315 39.8683 20.6495 39.6339 20.8839C39.3995 21.1183 39.0815 21.25 38.75 21.25H33.75C33.4185 21.25 33.1005 21.1183 32.8661 20.8839C32.6317 20.6495 32.5 20.3315 32.5 20C32.5 19.6685 32.6317 19.3505 32.8661 19.1161C33.1005 18.8817 33.4185 18.75 33.75 18.75H38.75C39.0815 18.75 39.3995 18.8817 39.6339 19.1161C39.8683 19.3505 40 19.6685 40 20ZM7.5 20C7.5 20.3315 7.3683 20.6495 7.13388 20.8839C6.89946 21.1183 6.58152 21.25 6.25 21.25H1.25C0.918479 21.25 0.600537 21.1183 0.366117 20.8839C0.131696 20.6495 0 20.3315 0 20C0 19.6685 0.131696 19.3505 0.366117 19.1161C0.600537 18.8817 0.918479 18.75 1.25 18.75H6.25C6.58152 18.75 6.89946 18.8817 7.13388 19.1161C7.3683 19.3505 7.5 19.6685 7.5 20ZM34.1425 5.8575C34.3768 6.09191 34.5085 6.40979 34.5085 6.74125C34.5085 7.07271 34.3768 7.39059 34.1425 7.625L30.6075 11.1625C30.4913 11.2786 30.3533 11.3706 30.2016 11.4333C30.0498 11.4961 29.8871 11.5283 29.7229 11.5282C29.3912 11.528 29.0731 11.396 28.8387 11.1612C28.7227 11.045 28.6307 10.9071 28.5679 10.7553C28.5052 10.6035 28.4729 10.4409 28.4731 10.2766C28.4733 9.94491 28.6053 9.62689 28.84 9.3925L32.375 5.8575C32.6094 5.62316 32.9273 5.49152 33.2588 5.49152C33.5902 5.49152 33.9081 5.62316 34.1425 5.8575V5.8575ZM11.16 28.84C11.3943 29.0744 11.526 29.3923 11.526 29.7237C11.526 30.0552 11.3943 30.3731 11.16 30.6075L7.625 34.1425C7.38925 34.3702 7.07349 34.4962 6.74575 34.4933C6.418 34.4905 6.10449 34.359 5.87273 34.1273C5.64097 33.8955 5.50951 33.582 5.50666 33.2543C5.50381 32.9265 5.6298 32.6108 5.8575 32.375L9.3925 28.84C9.62691 28.6057 9.94479 28.474 10.2762 28.474C10.6077 28.474 10.9256 28.6057 11.16 28.84V28.84ZM34.1425 34.1425C33.9081 34.3768 33.5902 34.5085 33.2588 34.5085C32.9273 34.5085 32.6094 34.3768 32.375 34.1425L28.84 30.6075C28.6123 30.3717 28.4863 30.056 28.4892 29.7282C28.492 29.4005 28.6235 29.087 28.8552 28.8552C29.087 28.6235 29.4005 28.492 29.7282 28.4892C30.056 28.4863 30.3717 28.6123 30.6075 28.84L34.1425 32.375C34.3768 32.6094 34.5085 32.9273 34.5085 33.2588C34.5085 33.5902 34.3768 33.9081 34.1425 34.1425ZM11.16 11.1625C10.9256 11.3968 10.6077 11.5285 10.2762 11.5285C9.94479 11.5285 9.62691 11.3968 9.3925 11.1625L5.8575 7.625C5.73811 7.50969 5.64288 7.37176 5.57737 7.21926C5.51186 7.06675 5.47738 6.90273 5.47594 6.73675C5.47449 6.57078 5.50612 6.40618 5.56897 6.25256C5.63182 6.09894 5.72464 5.95937 5.84201 5.84201C5.95937 5.72464 6.09894 5.63182 6.25256 5.56897C6.40618 5.50612 6.57078 5.47449 6.73675 5.47594C6.90273 5.47738 7.06675 5.51186 7.21926 5.57737C7.37176 5.64288 7.50969 5.73811 7.625 5.8575L11.16 9.3925C11.2764 9.50861 11.3688 9.64655 11.4318 9.79842C11.4948 9.95028 11.5272 10.1131 11.5272 10.2775C11.5272 10.4419 11.4948 10.6047 11.4318 10.7566C11.3688 10.9084 11.2764 11.0464 11.16 11.1625V11.1625Z" fill="#ffffff"></path></svg>
+                    <svg class="changeTheme" data-theme="dark" width="38" height="40" viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block;"> <path d="M15 0.695136C15.244 0.991667 15.3935 1.35457 15.4292 1.73694C15.4648 2.11932 15.385 2.5036 15.2 2.84014C13.7546 5.49382 12.9998 8.46837 13.005 11.4901C13.005 21.5426 21.2 29.6826 31.3 29.6826C32.6175 29.6826 33.9 29.5451 35.1325 29.2826C35.5103 29.2008 35.9039 29.2321 36.264 29.3726C36.6241 29.5131 36.9349 29.7566 37.1575 30.0726C37.3925 30.4013 37.5123 30.7983 37.4983 31.2021C37.4842 31.6058 37.3372 31.9936 37.08 32.3051C35.1192 34.7137 32.6456 36.6544 29.8396 37.9856C27.0335 39.3168 23.9658 40.0051 20.86 40.0001C9.335 40.0001 0 30.7151 0 19.2751C0 10.6651 5.285 3.28014 12.81 0.150136C13.1848 -0.00828447 13.601 -0.0407995 13.9959 0.057475C14.3908 0.15575 14.7431 0.379507 15 0.695136V0.695136Z" fill="#222222"></path></svg>
+                </div>
+                <a href="" class="header__button another__btn" data-lang="head__button" >Contact Us</a>
+            </div>
+        </header>
+        <main class="page">
+            <div class="main-block">
+                <div class="main-block__container">
+                    <div class="main-block__body">
+                        <h1  data-lang="main-blck__bd">Best Marketing Digital Agency</h1>
+                        <p class="main-block__text" data-lang="main__textck">
+                            Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                        </p>
+                        <div class="main-block__buttons">
+                            <a href="" class="main-block__solid-button button" data-lang="main-block__solid-btn">Get Started</a>
+                            <div class="main-block__circled__button">
+                                <a class="circled another__btn">
+                                    <span class="triangle__button"></span>
+                                </a>
+                                <a href="" class="circled__button__text" data-lang="circled__btn">Watch Video</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block__image">
+                        <img class="MB_image" src="images/svg/mainblock_image.svg" alt="Cover">
+                    </div>
+                    <!-- <div class="btn_play">
+                        <img class="btn_image" src="images/img/play-button.png" alt="Play button">
+                    </div> -->
+                    <audio class="audio_player" src="audio/Tom_Cat_-_Chin_Cheng_hanji_75546186.mp3"></audio>
+                </div>
+            </div>
+            <section class="trusted__clients">
+                <div class="trusted__clients__container">
+                    <h2 class="trusted__clients__title" data-lang="clients__title">Our trusted clients</h2>
+                    <div class="trusted__clients__body">
+                        <ul class="clients__list">
+                            <li class="clients__item">
+                                <a href="" class="clients__link">
+                                    <img src="images/svg/Slack (logo — Colour).svg" alt="Slack company logo" class="clients__logo">
+                                </a>
+                            </li>
+                            <li class="clients__item">
+                                <a href="" class="clients__link">
+                                    <img src="images/svg/Descript (logo — Colour).svg" alt="Descript company logo" class="clients__logo">
+                                </a>
+                            </li>
+                            <li class="clients__item">
+                                <a href="" class="clients__link">
+                                    <img src="images/svg/Etsy (logo — Colour).svg" alt="Etsy company logo" class="clients__logo">
+                                </a>
+                            </li>
+                            <li class="clients__item">
+                                <a href="" class="clients__link">
+                                    <img src="images/svg/Spotify (logo — Colour).svg" alt="Spotify company logo" class="clients__logo">
+                                </a>
+                            </li>
+                            <li class="clients__item">
+                                <a href="" class="clients__link">
+                                    <img src="images/svg/Logitech (logo — Colour).svg" alt="Logitech company logo" class="clients__logo">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="what__we__do">
+                <div class="what__we__do__container">
+                    <div class="what__we__do__header">
+                        <h2  data-lang="what__header">What we do</h2>
+                        <div class="title_and_rocket__block">
+                            <h3 class="what__we__do__title" data-lang="what__title">We Are Here To Help You Build Your Business </h3>
+                            <img src="images/svg/rocket.svg" alt="Rocket emogi">
+                        </div>
+                    </div>
+                    <div class="what__we__do__body">
+                        <p class="what__we__do__text">Sed ut perspiciatis unde omnis iste natus error sit of the voluptatem accusantium lorem sit doloremque, totam rem aperiam, eaque ipsa quae ab illo invento veritatis quasi architecto beatae vitae dicta.</p>
+                        <a href="" class="what__we__do__button button" data-lang="what__button">Explore all service</a>
+                    </div>
+                    <div class="what__we__do__cards">
+                        <div class="card__block digital__marketing">
+                            <img src="images/svg/Digital_Marketing_icon.svg" alt="Dartboard icon">
+                            <h4 class="card__block__title" data-lang="card__title">Digital Marketing</h4>
+                            <p class="card__block__text" data-lang="card__text">That is the simply dummy text the printing and typesetting industry. </p>
+                            <a href="" class="card__block__link" data-lang="card__link">Read more</a>
+                        </div>
+                        <div class="card__block seo">
+                            <img src="images/svg/Seo__icon.svg" alt="Growth chart icon">
+                            <h4 class="card__block__title">SEO</h4>
+                            <p class="card__block__text" data-lang="card__text_1">That is the simply dummy text the printing and typesetting industry. </p>
+                            <a href="" class="card__block__link" data-lang="card__link_1">Read more</a>
+                        </div>
+                        <div class="card__block UI__UX__desing">
+                            <img src="images/svg/UI_UX_Design_icon.svg" alt="Sheet pile icon">
+                            <h4 class="card__block__title">UI UX Design</h4>
+                            <p class="card__block__text" data-lang="card__text_2">That is the simply dummy text the printing and typesetting industry. </p>
+                            <a href="" class="card__block__link" data-lang="card__link_2">Read more</a>
+                        </div>
+                        <div class="card__block web__development">
+                            <img src="images/svg/Web_Development_icon.svg" alt="tag icon">
+                            <h4 class="card__block__title" data-lang="card__title_1">Web Development</h4>
+                            <p class="card__block__text" data-lang="card__text_3">That is the simply dummy text the printing and typesetting industry. </p>
+                            <a href="" class="card__block__link" data-lang="card__link_3">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about__us">
+                <div class="about__us__container">
+                    <div class="about__us__header">
+                        <h2 data-lang="about__header">About us</h2>
+                        <h3 class="about__us__title" data-lang="about__title">We're More Than Digital Agency in the World</h3>
+                    </div>
+                    <div class="about__us__body">
+                        <p class="about__us__text">Sed ut perspiciatis unde omnis iste natus error sit of the voluptatem accusantium lorem sit doloremque, totam rem aperiam, eaque ipsa quae ab illo invento veritatis quasi architecto beatae vitae dicta.</p>
+                        <a href="" class="about__us__button button" data-lang="about__button">Get in touch</a>
+                    </div>
+                    <div class="about__us__image">
+                        <img src="images/svg/About us image.svg" alt="About us cover">
+                    </div>
+                </div>
+            </section>
+            <section class="our__work">
+                <div class="our__work__container">
+                    <h2 data-lang="work__container">Our work</h2>
+                    <h3 class="our__work__title" data-lang="work__title">See Our Recent Case Studies</h3>
+                    <div class="our__work__navigation__block">
+                        <nav class="our__work__menu">
+                            <ul class="our__work__menu__list">
+                                <li class="our__work__menu__list__item">
+                                    <div class="list__item__block">
+                                        <a href="" class="our__work__menu__link">UI/UX</a>
+                                    </div>
+                                </li>
+                                <li class="our__work__menu__list__item">
+                                    <div class="list__item__block">
+                                        <a href="" class="our__work__menu__link" data-lang="work__menu__link">Development</a>
+                                    </div>
+                                </li>
+                                <li class="our__work__menu__list__item">
+                                    <div class="list__item__block">
+                                        <a href="" class="our__work__menu__link" data-lang="work__menu__link_1">Graphic Design</a>
+                                    </div>
+                                </li>
+                                <li class="our__work__menu__list__item">
+                                    <div class="list__item__block">
+                                        <a href="" class="our__work__menu__link" data-lang="work__menu__link_2">Motion</a>
+                                    </div>
+                                </li>
+                                <li class="our__work__menu__list__item">
+                                    <div class="list__item__block">
+                                        <a href="" class="our__work__menu__link" data-lang="work__menu__link_3">Branding</a>
+                                    </div>
+                                </li>
+                                <li class="our__work__menu__list__item">
+                                    <div class="list__item__block">
+                                        <a href="" class="our__work__menu__link" data-lang="work__menu__link_4">Business Development</a>
+                                    </div>
+                                </li>
+                                <li class="explore__all">
+                                    <div class="list__item__block">
+                                        <a href="" class="explore__all__text" data-lang="explore__text">Explore all</a>
+                                        <img src="images/svg/Arrow.svg" alt="Arrow to right" class="explore__all__arrow">
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="our__work__demonstration__block">
+                        <div class="demonstration__block">
+                            <img src="images/img/Rectangle 704.png" alt="project demonstration image 1">
+                        </div>
+                        <div class="demonstration__block">
+                            <img src="images/img/Rectangle 705.png" alt="project demonstration image 2">
+                        </div>
+                        <div class="demonstration__block">
+                            <img src="images/img/Rectangle 706.png" alt="project demonstration image 3">
+                        </div>
+                        <div class="demonstration__block">
+                            <img src="images/img/Rectangle 708.png" alt="project demonstration image 4">
+                        </div>
+                        <div class="demonstration__block">
+                            <img src="images/img/Rectangle 711.png" alt="project demonstration image 5">
+                        </div>
+                        <div class="demonstration__block">
+                            <img src="images/img/Rectangle 710.png" alt="project demonstration image 6">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonial">
+                <h2 data-lang="testimon">Testimonial</h2>
+                <h3 class="testimonial__title" data-lang="testimon__title">What Our Customer Say About Us</h3>
+                <div class="testimonial__container">
+                    <div class="review__block">
+                        <div class="customer__info">
+                            <img src="images/svg/Johne Abram.svg" alt="Customer(Johne Abram) photo">
+                            <div class="name__and__company">
+                                <p class="customer__name" data-lang="custom__name">Johne Abram</p>
+                                <p class="customer__company">SBL Saas Company</p>
+                            </div>
+                        </div>
+                        <p class="review" data-lang="review_lng">Our website is working well for us. Our website was developed beautifully by the proxylab team. We really appreciated the prompt responses and delivery of exactly what we requested, as per our expectations.</p>
+                    </div>
+                    <div class="testimonial__buttons">
+                        <div class="previous__button another__btn">
+                            <img src="images/svg/Gray__arrow__left.svg" alt="Previous button arrow" class="previous__button__arrow">
+                        </div>
+                        <div class="next__button another__btn">
+                            <img src="images/svg/White__arrow__right.svg" alt="Next button arrow" class="next__button__arrow">
+                        </div>
+                    </div>
+                    <img src="images/svg/Customers.svg" alt="Our customers photos" class="customers_photos">
+                </div>
+            </section>
+            <section class="get__in__touch">
+                <div class="get__in__touch__container">
+                    <img src="images/img/serious-man-thinking 1.png" alt="Thinking man cover" class="get__in__touch__cover">
+                    <div class="get__in__touch__body">
+                        <h2 class="get__in__touch__title" data-lang="get__title">Have A Project In Mind? Let's Get To Work.</h2>
+                        <a href="" class="get__in__touch__button button" data-lang="get__button">Get in touch</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer__container">
+                <div class="company__contact__block">
+                    <div class="main__info">
+                        <img src="images/svg/Logo.svg" alt="Company logo" class="footer__logo">
+                        <ul class="main__contact__list">
+                            <li class="contact__list__item location" data-lang="contact__item">Dhaka, Bangladesh</li>
+                            <li class="contact__list__item calling">0943833399</li>
+                            <li class="contact__list__item message">support@proxylab.com</li>
+                        </ul>
+                    </div>
+                    <div class="service__block">
+                        <h2 data-lang="service__blk">Service</h2>
+                        <ul class="service__list">
+                            <li class="service__list__item footer__list__item">
+                                <a href="" class="service__link" data-lang="service__link_1">UI UX Design</a>
+                            </li>
+                            <li class="service__list__item footer__list__item">
+                                <a href="" class="service__link" data-lang="service__link_2">Mobile Design</a>
+                            </li>
+                            <li class="service__list__item footer__list__item">
+                                <a href="" class="service__link" data-lang="service__link_3">Motion Graphic</a>
+                            </li>
+                            <li class="service__list__item footer__list__item">
+                                <a href="" class="service__link" data-lang="service__link_4">Web Development</a>
+                            </li>
+                            <li class="service__list__item footer__list__item">
+                                <a href="" class="service__link" data-lang="service__link_5">Digital Marketing</a>
+                            </li>
+                            <li class="service__list__item footer__list__item">
+                                <a href="" class="service__link" data-lang="service__link_6">Business Development</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="company__block">
+                        <h2 data-lang="company">Company</h2>
+                        <ul class="company__list">
+                            <li class="company__list__item footer__list__item">
+                                <a href="" class="company__link" data-lang="company__link_1">Service</a>
+                            </li>
+                            <li class="company__list__item footer__list__item">
+                                <a href="" class="company__link" data-lang="company__link_2">Features</a>
+                            </li>
+                            <li class="company__list__item footer__list__item">
+                                <a href="" class="company__link" data-lang="company__link_3">Our Team</a>
+                            </li>
+                            <li class="company__list__item footer__list__item">
+                                <a href="" class="company__link" data-lang="company__link_4">Portfolio</a>
+                            </li>
+                            <li class="company__list__item footer__list__item">
+                                <a href="" class="company__link" data-lang="company__link_5">Blog</a>
+                            </li>
+                            <li class="company__list__item footer__list__item">
+                                <a href="" class="company__link" data-lang="company__link_6">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social__media__block">
+                        <h2 data-lang="social__media">Our Social Media</h2>
+                        <ul class="social__media__list">
+                            <li class="social__media__list__item footer__list__item">
+                                <a href="" class="social__media__link">Dribbble</a>
+                            </li>
+                            <li class="social__media__list__item footer__list__item">
+                                <a href="" class="social__media__link">Behance</a>
+                            </li>
+                            <li class="social__media__list__item footer__list__item">
+                                <a href="" class="social__media__link">Medium</a>
+                            </li>
+                            <li class="social__media__list__item footer__list__item">
+                                <a href="" class="social__media__link">Instagram</a>
+                            </li>
+                            <li class="social__media__list__item footer__list__item">
+                                <a href="" class="social__media__link">Facebook</a>
+                            </li>
+                            <li class="social__media__list__item footer__list__item">
+                                <a href="" class="social__media__link">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="newsletter">
+                        <h2 data-lang="news__letter">Join a Newsletter</h2>
+                        <p data-lang="your__email">Your Email</p>
+                        <form action="index.html" class="email__adress">
+                            <input type="text" placeholder="Enter Your Email">
+                        </form>
+                        <a href="" class="newsletter__button button" data-lang="newsletter__btn">
+                            Subscribe
+                        </a>
+                    </div>
+                </div>
+                <div class="stroke__line"></div>
+                <div class="company__additional__info__block">
+                    <p class="copyright__watermark" data-lang="copyright">© 2021 proxylab - All rights reserved.</p>
+                    <ul class="company__additional__info__list">
+                        <li class="company__additional__info__list__item">
+                            <a href="" class="company__additional__info__link" data-lang="company__additional__info__link_1">
+                                Privacy
+                            </a>
+                        </li>
+                        <li class="company__additional__info__list__item">
+                            <a href="" class="company__additional__info__link" data-lang="company__additional__info__link_2">
+                                Security
+                            </a>
+                        </li>
+                        <li class="company__additional__info__list__item">
+                            <a href="" class="company__additional__info__link" data-lang="company__additional__info__link_3">
+                                Terms
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
