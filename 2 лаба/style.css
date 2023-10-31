@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: #511730ee;
+    --additional-color-1: rgb(142, 68, 61, 1);
+    --additional-color-2: rgb(50, 10, 40, 0.7);
+    --font-main-color: #e0d68a;
+    --additonal-color-3: #9d5c56;
+}
+
+body {
+    height: 100%;
+    background-color: var(--primary-color);
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--font-main-color);
+}
+body::-webkit-scrollbar { 
+    width: 0 !important; 
+}
+
+/*#region---HEADER---*/
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    padding: 20px;
+    width: 100%;
+    background-color: var(--additional-color-2);
+}
+.logo {
+    display: inline-block;
+    font-size: 2rem;
+}
+.search-form {
+    position: relative;
+    left: 30.4vw;
+    width: 26vw;
+    margin: 0 auto;
+}
+.search-input {
+    padding-left: 0.8vw;
+    width: 100%;
+    height: 2.4rem;
+    background-color: #F9F0DA;
+    border: none;
+    border-radius: 0.6rem;
+}
+.search-input::placeholder {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.search-btn {
+    position: absolute;
+    right: 0.02px;
+    height: 2.4rem;
+    width: 3.5vw;
+    background-color: #F15B42;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 0.6rem 0.6rem 0;
+}
+.search-btn:active {
+    background-color: #d05540;
+}
+.search-btn::before {
+    font-family: FontAwesome;
+    content: "\f002";
+    color: #F9F0DA;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+/*#endregion---HEADER---*/
+/*#region---MAIN---*/
+.main__wrapper {
+    padding-top: 7.4em;
+}
+.main-tag {
+    font-size: 2.9em;
+    text-align: center;
+}
+.film-list {
+    margin-top: 2.2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie-card {
+    position: relative;
+    margin: 1.8rem;
+    overflow: hidden;
+    padding: 20px;
+    width: calc(100%/5);
+    border-radius: 1rem;
+    background-color: var(--additional-color-1);
+}
+.movie-info {
+    display: flex;
+    flex-direction: column;
+}
+.movie-main-info {
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}                     
+.movie-title {
+    color: black;
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.rating {
+    padding: 0.4rem 0.18rem 0.4rem 0.18rem;
+    background-color: var(--primary-color);
+    font-size: 1.1rem;
+    border-radius: 0.15rem;
+}
+.green {
+    color: rgb(69, 197, 69);
+}
+.orange {
+    color: orange;
+}
+.red {
+    color: red;
+}
+.movie-image {
+    width: 100%;
+    height: 80%;
+}
+.overview {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 1rem;
+    max-height: 100%;
+    font-size: 1.2rem;
+    width: 90.7%;
+    background-color: var(--additonal-color-3);
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in;
+}
+.movie-card:hover .overview {
+    transform: translateY(2.7%);
+}
+/*#endregion*/
+/*#region---FOOTER---*/
+.footer__wrapper {
+    padding: 1rem;
+    background-color: var(--additional-color-2);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.github-link {
+    text-decoration: none;
+    color: var(--additonal-color-3);
+}
+.github-link:hover {
+    color: #F15B42;
+}
+/*#endregion*/
+@media(max-width: 1900px) {
+    .search-form {
+        left: 28.4vw;
+        transition: 0.4 ease;
+    }
+}
+@media(max-width: 1440px) {
+    .search-form {
+        left: 26.4vw;
+    }
+    body {
+        font-size: 14px;
+    }
+    .movie-card {
+        margin: 1.4rem;
+    }
+}
+@media(max-width: 1280px) {
+    .search-form {
+        left: 24.4vw;
+    }
+    .movie-card {
+        padding: 15px;
+        width: calc(100%/4);
+        border-radius: 1rem;
+        background-color: var(--additional-color-1);
+    }
+}
+@media(max-width: 980px) {
+    body {
+        font-size: 12px;
+    }
+    .search-form {
+        left: 20.4vw;
+    }
+    .main__wrapper {
+        padding-top: 9.4em;
+    }
+    .overview {
+        font-size: 1rem;
+        right: 4.7%;
+    }
+    .movie-card {
+        width: calc(100%/3);
+    }
+}
