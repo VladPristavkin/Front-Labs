@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMDB API</title>
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header__wrapper">
+            <h1 class="logo"><span style="color: red;">NOT</span>KiNoPoisk</h1>
+            <form role="search" method="get" action="js/search.js" class="search-form">
+                <input type="search" name="search-text" placeholder="Введите запрос" class="search-input" autocomplete="off" onfocus="true">
+                <button type="submit" class="search-btn"></button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="main__wrapper">
+            <h2 class="main-tag">Most Popular now</h2>
+            <div class="film-list">
+                <figure class="movie-card">
+                    <figcaption class="movie-info">
+                        <img class="movie-image" src="https://art.pixilart.com/sr2d12e7b44c659.png" alt="Maxwell cat">
+                        <div class="movie-main-info">
+                            <h3 class="movie-title">Movie Title</h3>
+                            <span class="rating">9.8</span>
+                        </div>
+                        <div class="overview">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla officiis omnis ex blanditiis accusamus delectus magni possimus dolorum expedita qui! Velit esse eos veniam nobis animi eaque quaerat dignissimos praesentium.
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__wrapper">
+            <a href="https://github.com/VladPristavkin/Front-Labs.git" class="github-link">My Github</a>
+            <p>2023</p>
+        </div>
+    </footer>
+</body>
+</html>
