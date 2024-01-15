@@ -1,0 +1,9 @@
+body{
+    background-color:darkgreen;
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+}
+#root{
+    display: flex;
+    justify-content: center;
+}

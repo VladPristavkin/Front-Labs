@@ -1,0 +1,60 @@
+[
+    {
+        "id" : 1, 
+        "name" : "Front-End",
+        "description" : "Welcome to Front-End Community, your go-to hub for all things related to web development's front-end technologies! Whether you're a seasoned developer or just starting your journey, join us to explore the latest trends, share insights, and collaborate with like-minded enthusiasts.",
+        "moderators" :[
+        {
+            "login":"getrented",
+            "email":"getrented@mod.edtern.com"
+        }
+        ],
+        "members" : 12,
+        "baner" : "Front_End.png"
+    },
+    {
+        "id" : 2, 
+        "name" : "Back-End",
+        "description" : "Welcome to Back-End Community, where developers dive deep into the world behind the scenes of web applications. Whether you're a seasoned backend developer or just delving into the backend realm, our community is your go-to space for all things related to databases, APIs, and server-side scripting. Let's code the backbone of the web together!",
+        "moderators" :[
+        {
+            "login":"detu44",
+            "email":"detu44@mod.edtern.com"
+        },
+        {
+            "login":"bog",
+            "email":"bog@mod.edtern.com"
+        }
+        ],
+        "members" : 4,
+        "baner" : "Back_End.png"
+    },
+    {
+        "id" : 3, 
+        "name" : "Full-Stack",
+        "description" : "Welcome to Full-Stack Community, the community where developers unite to explore the dynamic realm of full-stack development. Whether you're a seasoned pro or just beginning your journey, our community is your space to discuss and learn about both front-end and back-end technologies. ",
+        "moderators" :[
+        {
+            "login":"apelsin",
+            "email":"apelsin@mod.edtern.com"
+        },
+        {
+            "login":"bog",
+            "email":"bog@mod.edtern.com"
+        }
+        ],
+        "members" : 45,
+        "baner" : "Full_Stack.png"
+    },
+    {
+        "id" : 4, 
+        "name" : "JavaScript",
+        "description" : "Welcome to the JavaScript Coummunity — an inclusive hub for developers passionate about the language that powers the modern web. Whether you're a coding maestro or just getting started, dive into the world of JavaScript with us. Connect, collaborate, and stay ahead of the curve with the latest trends and innovations. ",
+        "moderators" :[{
+            "login":"ovechka",
+            "email":"ovechka@mod.edtern.com"
+        }],
+        "members" : 30,
+        "baner" : "JavaScript.png"
+    }
+]
