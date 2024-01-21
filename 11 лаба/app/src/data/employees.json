@@ -1,0 +1,22 @@
+[
+    {
+        "firstName": "Антон",
+        "lastName": "Шурин",
+        "typeOfService": "Шиномонтаж"
+    },
+    {
+        "firstName": "Алексей",
+        "lastName": "Савельев",
+        "typeOfService": "Покраска авто"
+    },
+    {
+        "firstName": "Эмиль",
+        "lastName": "Зайцев",
+        "typeOfService": "Шиномонтаж"
+    },
+    {
+        "firstName": "Даниил",
+        "lastName": "Акинфейс",
+        "typeOfService": "Замена масла"
+    }
+]
