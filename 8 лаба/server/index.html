@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загруженная HTML-страница</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; color: blue;">Эту страницу загрузили с сервера!</h1>
+
+    <div>
+        <h2>Нажмите кнопки GET/POST для получения JSON</h2>
+        <h3 class="get-response-title" style="color: red;">Ответ от GET-запроса:</h3>
+        <h3 class="get-response"></h3>
+        <h3 class="post-response-title" style="color: green; text-decoration: underline;">Ответ от POST-запроса:</h3>
+        <h3 class="post-response"></h3>
+        <button type="button" onclick="getText()">
+            Получить (GET)
+        </button>
+        <button type="button" onclick="postText()">
+            Отправить (POST)
+        </button>
+    </div>
+
+    <div>
+        <h2>Введите информацию для отправки через POST-сервис</h2>
+        <form id="postDataForm" onsubmit="postData(event)">
+            <label for="firstName">Имя:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Фамилия:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="typeOfService">Тип услуги:</label>
+            <input type="text" id="typeOfService" name="typeOfService" required>
+
+            <button type="submit">
+                Отправить
+            </button>
+        </form>
+        <h3 class="post-response-back" style="color: green;">Ответ с бэка по POST-запросу:</h3>
+    </div>
+
+    <div>
+        <h2>Выберите формат файла для скачивания:</h2>
+        <h3 class="download-result" style="color: darkolivegreen;">Результат скачивания:</h3>
+        <button type="button" onclick="download('html')">
+            HTML
+        </button>
+        <button type="button" onclick="download('xml')">
+            XML
+        </button>
+        <button type="button" onclick="download('json')">
+            JSON
+        </button>
+    </div>
+    <script>
+        function getText() {
+            fetch('/get')
+                .then(response => response.json())
+                .then(data =>{
+                    document.querySelector('.get-response-title').textContent='Ответ от GET-запроса:';
+                    document.querySelector('.get-response').textContent = JSON.stringify(data.text);
+                });
+        }
+
+        function postText() {
+            fetch('/post', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    document.querySelector('.post-response-title').textContent='Ответ от POST-запроса:';
+                    document.querySelector('.post-response').textContent = JSON.stringify(data.text);
+                });
+        }
+
+        function postData(event) {
+            event.preventDefault();
+
+            const formData = new FormData(document.getElementById('postDataForm'));
+            const text = {};
+
+            formData.forEach((value, key) => {
+            text[key] = value;
+            });
+            
+            fetch('postData', { method: 'POST', headers: { 'Content-Type': 'application/json', }, body: JSON.stringify(text) })
+                .then(response => response.json())
+                .then(MyBackMessage => {
+                    document.querySelector('.post-response-back').textContent = MyBackMessage.message;
+                })
+        }
+
+        function download(format) {
+            fetch('/file', {
+                method: 'GET',
+                headers: {
+                    'Accept': `application/${format}`,
+                },
+            })
+                .then(response => response.blob())
+                .then(blob => {
+                    const reader = new FileReader();
+
+                reader.onloadend = () => {
+                const link = document.createElement('a');
+                link.href = reader.result;
+                link.download = `downloaded.${format}`;
+                link.click();
+                };
+
+            reader.readAsDataURL(blob);
+            })
+                .then(file => {
+                    document.querySelector('.download-result').textContent = `Файл с форматом ${format} скачан.`;
+                })
+                .catch(error => {
+                    console.error('Error during download:', error);
+                });
+        }
+    </script>
+</body>
+
+</html>
