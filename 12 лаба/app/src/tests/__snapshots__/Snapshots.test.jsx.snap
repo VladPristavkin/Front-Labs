@@ -1,0 +1,1196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders AddEmployee component correctly 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Autoservice-logo"
+          class="header-logo"
+          src="logo.png"
+        />
+      </a>
+      <div
+        class="MuiTypography-root MuiTypography-h6 css-1t4mx1v-MuiTypography-root"
+      >
+        Система управления отделом сервисного обслуживания
+      </div>
+    </div>
+  </header>
+  <div
+    class="main"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+      tabindex="0"
+      type="button"
+    >
+      Назад
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+    <h3
+      class="MuiTypography-root MuiTypography-h3 css-uvx9dl-MuiTypography-root"
+    >
+      Добавить сотрудника
+    </h3>
+    <form>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+        >
+          <div
+            class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+          >
+            <div
+              class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-1rv3ei8-MuiFormControl-root-MuiTextField-root"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                data-shrink="false"
+                for=":r0:"
+                id=":r0:-label"
+              >
+                Имя
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                  id=":r0:"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-yjsfm1"
+                  >
+                    <span>
+                      Имя
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+        >
+          <div
+            class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+          >
+            <div
+              class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-1rv3ei8-MuiFormControl-root-MuiTextField-root"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                data-shrink="false"
+                for=":r1:"
+                id=":r1:-label"
+              >
+                Фамилия
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                  id=":r1:"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-yjsfm1"
+                  >
+                    <span>
+                      Фамилия
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth css-1iledgx-MuiFormControl-root"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          id="service-select-label"
+        >
+          Выберите услугу
+        </label>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+        >
+          <div
+            aria-controls=":r2:"
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-labelledby="service-select-label service-select"
+            class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+            id="service-select"
+            role="combobox"
+            tabindex="0"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </div>
+          <input
+            aria-hidden="true"
+            aria-invalid="false"
+            class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+            tabindex="-1"
+            value=""
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+            data-testid="ArrowDropDownIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+          <fieldset
+            aria-hidden="true"
+            class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="css-yjsfm1"
+            >
+              <span>
+                Выберите услугу
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Добавить
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </form>
+  </div>
+  <footer
+    class="MuiBox-root css-1phuy83"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-dtb73s-MuiContainer-root"
+    >
+      <a
+        href="/handbook"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter MuiTypography-gutterBottom css-18b4mho-MuiTypography-root"
+        >
+          Памятка работника
+        </p>
+      </a>
+      <a
+        href="/support"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-ea1k3x-MuiTypography-root"
+        >
+          Поддержка
+        </p>
+      </a>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`renders AddEmployeeModal correctly 1`] = `
+<div
+  aria-hidden="true"
+/>
+`;
+
+exports[`renders Button correctly 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-1wdhli5-MuiButtonBase-root-MuiButton-root"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`renders EmployeeCard correctly 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+    >
+      <div
+        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+      >
+        John
+         
+        Doe
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1ydyjjr-MuiTypography-root"
+      >
+        Some Service
+      </p>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Уволить
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders EmployeeHandbook component correctly 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Autoservice-logo"
+          class="header-logo"
+          src="logo.png"
+        />
+      </a>
+      <div
+        class="MuiTypography-root MuiTypography-h6 css-1t4mx1v-MuiTypography-root"
+      >
+        Система управления отделом сервисного обслуживания
+      </div>
+    </div>
+  </header>
+  <div
+    class="main"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-xdmu94-MuiContainer-root"
+    >
+      <div
+        class="MuiBox-root css-h5fkc8"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-1vw6mcs-MuiTypography-root"
+        >
+          Памятка работника сервисного отдела
+        </h4>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yocq7i-MuiPaper-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+              >
+                1. Замена масла
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                - Проводите слив старого масла в соответствии с инструкциями.
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                - Заменяйте масляный фильтр при каждой замене масла.
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                - Заправляйте новое масло в двигатель автомобиля.
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+              >
+                2. Шиномонтаж
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                - Осуществляйте снятие и установку шин.
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                - Проводите балансировку колес для обеспечения комфортного вождения.
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+              >
+                3. Покраска авто
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                - Подготавливайте поверхность автомобиля перед покраской.
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                - Наносите краску и защитное покрытие согласно стандартам.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="MuiBox-root css-1phuy83"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-dtb73s-MuiContainer-root"
+    >
+      <a
+        href="/handbook"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter MuiTypography-gutterBottom css-18b4mho-MuiTypography-root"
+        >
+          Памятка работника
+        </p>
+      </a>
+      <a
+        href="/support"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-ea1k3x-MuiTypography-root"
+        >
+          Поддержка
+        </p>
+      </a>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`renders Employees component correctly 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Autoservice-logo"
+          class="header-logo"
+          src="logo.png"
+        />
+      </a>
+      <div
+        class="MuiTypography-root MuiTypography-h6 css-1t4mx1v-MuiTypography-root"
+      >
+        Система управления отделом сервисного обслуживания
+      </div>
+    </div>
+  </header>
+  <div
+    class="main"
+  >
+    <div
+      class="MuiBox-root css-9kjoip"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Список услуг
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Добавить сотрудника
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+      style="text-align: center; margin-bottom: 3vh;"
+    >
+      Работники отдела:
+    </h4>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-8wqzlf-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+            >
+              Антон
+               
+              Шурин
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1ydyjjr-MuiTypography-root"
+            >
+              Шиномонтаж
+            </p>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Уволить
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+            >
+              Алексей
+               
+              Савельев
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1ydyjjr-MuiTypography-root"
+            >
+              Покраска авто
+            </p>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Уволить
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+            >
+              Эмиль
+               
+              Зайцев
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1ydyjjr-MuiTypography-root"
+            >
+              Шиномонтаж
+            </p>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Уволить
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+            >
+              Даниил
+               
+              Акинфейс
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1ydyjjr-MuiTypography-root"
+            >
+              Замена масла
+            </p>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Уволить
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="MuiBox-root css-1phuy83"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-dtb73s-MuiContainer-root"
+    >
+      <a
+        href="/handbook"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter MuiTypography-gutterBottom css-18b4mho-MuiTypography-root"
+        >
+          Памятка работника
+        </p>
+      </a>
+      <a
+        href="/support"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-ea1k3x-MuiTypography-root"
+        >
+          Поддержка
+        </p>
+      </a>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`renders Footer correctly 1`] = `
+<div>
+  <footer
+    class="MuiBox-root css-1phuy83"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-dtb73s-MuiContainer-root"
+    >
+      <a
+        href="/handbook"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter MuiTypography-gutterBottom css-18b4mho-MuiTypography-root"
+        >
+          Памятка работника
+        </p>
+      </a>
+      <a
+        href="/support"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-ea1k3x-MuiTypography-root"
+        >
+          Поддержка
+        </p>
+      </a>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`renders Header correctly 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Autoservice-logo"
+          class="header-logo"
+          src="logo.png"
+        />
+      </a>
+      <div
+        class="MuiTypography-root MuiTypography-h6 css-1t4mx1v-MuiTypography-root"
+      >
+        Система управления отделом сервисного обслуживания
+      </div>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`renders Logo correctly 1`] = `
+<div>
+  <img
+    alt="Autoservice-logo"
+    src="logo.png"
+  />
+</div>
+`;
+
+exports[`renders Main component correctly 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Autoservice-logo"
+          class="header-logo"
+          src="logo.png"
+        />
+      </a>
+      <div
+        class="MuiTypography-root MuiTypography-h6 css-1t4mx1v-MuiTypography-root"
+      >
+        Система управления отделом сервисного обслуживания
+      </div>
+    </div>
+  </header>
+  <div
+    class="main"
+    style="display: flex; flex-direction: column; align-items: center;"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-i2g9k9-MuiTypography-root"
+    >
+      Добро пожаловать!
+    </h4>
+    <h6
+      class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-mdd5k0-MuiTypography-root"
+    >
+      Мы предоставляем высококачественные услуги по замене масла, шиномонтажу и покраске автомобилей. Наши профессионалы готовы обеспечить заботу о вашем авто. Нажмите "Начать работу", чтобы узнать больше!
+    </h6>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+      tabindex="0"
+      type="button"
+    >
+      Начать работу
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+  <footer
+    class="MuiBox-root css-1phuy83"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-dtb73s-MuiContainer-root"
+    >
+      <a
+        href="/handbook"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter MuiTypography-gutterBottom css-18b4mho-MuiTypography-root"
+        >
+          Памятка работника
+        </p>
+      </a>
+      <a
+        href="/support"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-ea1k3x-MuiTypography-root"
+        >
+          Поддержка
+        </p>
+      </a>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`renders ServiceCard correctly 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1ri6ub7-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Test Service"
+      class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+      height="140"
+      src="test-banner.jpg"
+    />
+    <div
+      class="MuiCardContent-root css-146fpaj-MuiCardContent-root"
+    >
+      <div
+        class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+      >
+        Test Service
+      </div>
+      <div
+        class="MuiBox-root css-1yuhvjn"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          Подробнее
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ServiceModal correctly 1`] = `
+<div
+  aria-hidden="true"
+/>
+`;
+
+exports[`renders Services component correctly 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Autoservice-logo"
+          class="header-logo"
+          src="logo.png"
+        />
+      </a>
+      <div
+        class="MuiTypography-root MuiTypography-h6 css-1t4mx1v-MuiTypography-root"
+      >
+        Система управления отделом сервисного обслуживания
+      </div>
+    </div>
+  </header>
+  <div
+    class="main"
+  >
+    <div
+      style="text-align: right;"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Управление работниками
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+      style="text-align: center; margin-bottom: 3vh;"
+    >
+      Наши услуги:
+    </h4>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-8wqzlf-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1ri6ub7-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Замена масла"
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+            height="140"
+            src="https://vag-doc.ru/assets/images/services/maslo-3.jpg"
+          />
+          <div
+            class="MuiCardContent-root css-146fpaj-MuiCardContent-root"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+            >
+              Замена масла
+            </div>
+            <div
+              class="MuiBox-root css-1yuhvjn"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Подробнее
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1ri6ub7-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Шиномонтаж"
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+            height="140"
+            src="https://static.tildacdn.com/tild6332-3663-4530-a664-316164623039/6430fc0ab9149bf0943c.jpg"
+          />
+          <div
+            class="MuiCardContent-root css-146fpaj-MuiCardContent-root"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+            >
+              Шиномонтаж
+            </div>
+            <div
+              class="MuiBox-root css-1yuhvjn"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Подробнее
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1ri6ub7-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Покраска авто"
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+            height="140"
+            src="https://a.d-cd.net/Q8AAAgGd0uA-1920.jpg"
+          />
+          <div
+            class="MuiCardContent-root css-146fpaj-MuiCardContent-root"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+            >
+              Покраска авто
+            </div>
+            <div
+              class="MuiBox-root css-1yuhvjn"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Подробнее
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="MuiBox-root css-1phuy83"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-dtb73s-MuiContainer-root"
+    >
+      <a
+        href="/handbook"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter MuiTypography-gutterBottom css-18b4mho-MuiTypography-root"
+        >
+          Памятка работника
+        </p>
+      </a>
+      <a
+        href="/support"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-ea1k3x-MuiTypography-root"
+        >
+          Поддержка
+        </p>
+      </a>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`renders Support component correctly 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Autoservice-logo"
+          class="header-logo"
+          src="logo.png"
+        />
+      </a>
+      <div
+        class="MuiTypography-root MuiTypography-h6 css-1t4mx1v-MuiTypography-root"
+      >
+        Система управления отделом сервисного обслуживания
+      </div>
+    </div>
+  </header>
+  <div
+    class="main"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-xdmu94-MuiContainer-root"
+    >
+      <div
+        class="MuiBox-root css-h5fkc8"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-1vw6mcs-MuiTypography-root"
+        >
+          Контакты поддержки
+        </h4>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yocq7i-MuiPaper-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1fyyp8j-MuiGrid-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+              >
+                Адрес:
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                123 Стройительная улица, город Техноград, Страна Сервисии
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1fyyp8j-MuiGrid-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+              >
+                Телефон:
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                +1 (555) 123-4567
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+              >
+                Электронная почта:
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                support@autoservicecenter.com
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+              >
+                График работы:
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Пн-Пт: 9:00 - 18:00, Сб: 10:00 - 15:00
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-qwujcl"
+            >
+              <img
+                alt="Autoservice-logo"
+                class="support-logo"
+                src="logo.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="MuiBox-root css-1phuy83"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-dtb73s-MuiContainer-root"
+    >
+      <a
+        href="/handbook"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter MuiTypography-gutterBottom css-18b4mho-MuiTypography-root"
+        >
+          Памятка работника
+        </p>
+      </a>
+      <a
+        href="/support"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-ea1k3x-MuiTypography-root"
+        >
+          Поддержка
+        </p>
+      </a>
+    </div>
+  </footer>
+</div>
+`;
